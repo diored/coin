@@ -1,0 +1,32 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <LangVersion>preview</LangVersion>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+    <AssemblyName>DioRed.CoIn</AssemblyName>
+    <RootNamespace>DioRed.CoIn</RootNamespace>
+  </PropertyGroup>
+
+  <PropertyGroup>
+    <Title>CoIn</Title>
+    <GeneratePackageOnBuild>false</GeneratePackageOnBuild>
+    <Authors>DioRED</Authors>
+    <PackageId>DioRed.CoIn</PackageId>
+    <Version>0.1.0</Version>
+    <PackageLicenseExpression>MIT</PackageLicenseExpression>
+    <PackageIcon>coin-logo.png</PackageIcon>
+    <Description>CoIn (Command Invoker) is a lightweight framework for organizing application logic through commands and their handlers.</Description>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Include="../../assets/coin-logo.png" Pack="true" PackagePath="." />
+    <None Include="../../README.md" Pack="true" PackagePath="." />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.Extensions.DependencyInjection.Abstractions" Version="9.0.8" />
+  </ItemGroup>
+
+</Project>
