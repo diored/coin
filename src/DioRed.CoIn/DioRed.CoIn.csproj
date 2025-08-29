@@ -17,7 +17,7 @@
     <Version>0.1.0</Version>
     <PackageLicenseExpression>MIT</PackageLicenseExpression>
     <PackageIcon>coin-logo.png</PackageIcon>
-    <Description>CoIn (Command Invoker) is a lightweight framework for organizing application logic through commands and their handlers.</Description>
+    <Description>Lightweight command invocation framework</Description>
   </PropertyGroup>
 
   <ItemGroup>
